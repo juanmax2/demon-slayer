@@ -1,0 +1,36 @@
+.cs-detail-comtainer{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 4rem auto;
+}
+
+.cs-detail-img{
+    max-width: 300px;
+    margin: auto;
+    border-radius: 6rem;
+}
+
+.combat-style-detail{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border: 1px solid rgb(81, 19, 19);
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.combat-style-detail a{
+    border: 1px solid red;
+    padding: 1.5rem;
+    width: fit-content;
+    border-radius: 1rem;
+    margin: 1rem auto;
+    color: white;
+    text-decoration: none;
+
+}
+
+.combat-style-detail a:hover{
+    background-color: rgba(243, 19, 19, 0.4);
+}

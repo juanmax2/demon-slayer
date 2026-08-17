@@ -1,0 +1,36 @@
+ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    padding-left: 0;
+    margin: 2rem auto;
+    width: 75%;
+    gap: 8rem;
+}
+
+.ola-img {
+    display: none;
+}
+
+
+
+@media (min-width: 1024px){
+    .ola-img {
+        z-index: -1;
+        width: 130px;
+
+        animation: moverOla 10s linear infinite;
+
+        -webkit-mask-image: radial-gradient(circle, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 100%);
+        mask-image: radial-gradient(circle, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 100%);
+    }
+}
+
+@keyframes moverOla {
+    0%{
+        transform: translateX(calc(-100vw / 2 - 150px));
+    }
+    100% {
+        transform: translateX(400%)
+    }
+}

@@ -1,0 +1,45 @@
+.combat-container{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-image: url("../../../assets/logo-nobackground.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    color: white;
+}
+
+.combat-img{
+    width: 300px;
+    height: 400px;
+    transition: scale 0.5s ease-in-out;
+}
+
+.combat-img:hover{
+    scale: 1.1;
+}
+
+.no-img{
+    width: 100%;
+}
+
+.combat-container a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.combat-info a{
+    border: 1px solid red;
+    padding: 1.5rem;
+    width: fit-content;
+    border-radius: 1rem;
+    margin: 10px auto;
+    text-decoration: none;
+    color: white;
+
+}
+
+.combat-info a:hover{
+    background-color: rgba(243, 19, 19, 0.4);
+}

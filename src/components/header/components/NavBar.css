@@ -1,0 +1,30 @@
+nav {
+    margin-left: auto;
+    width: fit-content;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    width: fit-content;
+    gap: 2rem;
+}
+
+nav ul li {
+    border: none ;
+    border-radius: none;
+}
+
+nav ul li:hover{
+    border-bottom: 1px solid red;
+}
+
+nav ul .btn {
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+nav ul .active-link {
+    text-decoration: underline red;
+    text-underline-offset: 0.7rem;
+}

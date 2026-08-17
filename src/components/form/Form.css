@@ -1,0 +1,22 @@
+
+form {
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+    padding: 2rem;
+    border-radius: 1rem;
+    max-width: 300px;
+}
+
+form button {
+    display: inline-block;
+    margin: auto;
+    border-radius: 1rem;
+    padding: 5px 10px;
+}
+
+.error-validation{
+    color:red;
+    margin: auto;
+}
